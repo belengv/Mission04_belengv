@@ -8,7 +8,7 @@
 <!--Grade calculator ready to receive inputs of grades-->
 <h2>Grade Calculator</h2>
 <p>Introduce the percentage for each category (Do NOT include % sign, ex: 95):</p>
-<form>
+<form method="post">
     <!--Asking for inputs between 0-100%-->
     <label>Assignments: </label>
     <input id="txtA" asp-for="Assignments" /><br />
@@ -25,7 +25,8 @@
     <!--Creating button to calculate final grades-->
     <input id="btnCalc" type="submit" value="Calculate Grade" /><br /><br />
     <!--Creating the label IDs that will receive a value from jquery'-->
-    <div asp-validation-summary="All"> </div>
+    
+    <div asp-validation-summary="All"></div>
 
 </form>
 
