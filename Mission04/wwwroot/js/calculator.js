@@ -47,7 +47,7 @@
     else {
         finalLetterG = 'E'
     }
-    // Printing final grades to HTML form, passing results to HTML labels
-    $("#txtFinalP").text("Final Percent Grade: " + totalPercent + "%");
-    $("#txtFinalL").text("Final Letter Grade: " + finalLetterG);
+
+    alert("Final Percent Grade: " + totalPercent + "%" +
+        "\nFinal Letter Grade:  " + finalLetterG);
 })

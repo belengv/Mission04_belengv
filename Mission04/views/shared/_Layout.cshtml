@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <title>My Webpage!</title>
+    <!--Adding title page Icon-->
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/originals/f4/45/c4/f445c4b7eec721298d98777ad0ba31d6.png">
+    <!--Adding CSS bootstrap -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--Adding my own deafult CSS -->
+    <link href="css/deafult.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        <a asp-controller="blah" asp-action="Index">Home</a>
+        <a asp-controller="blah" asp-action="GradeCalc">Grade Calculator</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+
+    <!--JS Bootstrap file-->
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <!--JQuery scripts-->
+    <script src="~/lib/jquery/jquery-3.6.3.min.js"></script>
+    <!--Javascript scripts-->
+    <script src="~/js/calculator.js"></script>
+
+    </body>
+    </html>
