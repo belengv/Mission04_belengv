@@ -48,6 +48,7 @@
         finalLetterG = 'E'
     }
 
+    //Alerts the result
     alert("Final Percent Grade: " + totalPercent + "%" +
         "\nFinal Letter Grade:  " + finalLetterG);
 })

@@ -8,6 +8,7 @@ namespace Mission04_belengv.models
 {
     public class CalculatorModel
     {
+        //Making fields required and within a range of 0-100, otherwise receive an error message
         [Required]
         [Range(0, 100, ErrorMessage = "Grade must be between 0 - 100!")]
         public int Assignments { get; set; }

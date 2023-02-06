@@ -26,7 +26,7 @@ namespace Mission04_belengv
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            //Adding the endpoints
             app.UseStaticFiles();
             app.UseRouting();
             app.UseEndpoints(endpoints =>

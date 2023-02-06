@@ -10,10 +10,12 @@ namespace Mission04_belengv.controllers
 {
     public class blahController : Controller
     {
+        //Actions for Index view
         public IActionResult Index()
         {
             return View();
         }
+        //Actions for GradeCalc view
         [HttpGet]
         public IActionResult GradeCalc()
         {
